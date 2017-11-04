@@ -5,12 +5,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#page{
-  position:relative;
-  border: 1px solid red;
-
-}
-
 .caret{
 
   display:inline-block;
@@ -172,6 +166,56 @@ body {
   overflow: hidden;
 }
 
+#page-check{
+
+  margin-right: 100px;
+  margin-top: 1000px;
+  position:sticky;
+
+}
+/*circles are backwards 4 - 1*/
+.circle{
+
+  float:right;
+  right:0;
+  background: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  opacity: 0.2;
+  margin-right: 10px;
+  transition: opacity 1s;
+
+}
+
+#page1:hover{
+
+  opacity: 1;
+  cursor: pointer;
+
+}
+
+#page2:hover{
+
+  opacity: 1;
+  cursor: pointer;
+
+}
+
+#page3:hover{
+
+  opacity: 1;
+  cursor: pointer;
+
+}
+
+#page4:hover{
+
+  opacity: 1;
+  cursor: pointer;
+
+}
+
 .arrow{
 
   font-size: 100px;
@@ -218,4 +262,20 @@ body {
 
 #img-scroll:hover>#next {
   margin-right: 40px;
+}
+
+#selection{
+
+  height: 600px;
+  width: 100%;
+  background:white;
+
+}
+
+#contact-info{
+
+  height: 250px;
+  width: 100%;
+  background: black;
+
 }
